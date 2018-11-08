@@ -2,7 +2,7 @@
      * Nate Williams & Milica Cvrkota                                *
      * PO Box 4580 (nate)                                            *
      * Program for CSC 207                                           *
-     *   Queue207.java                                              *
+     *   QueueLabWriteup.txt                                         *
      * For Queue Implementation lab (extra credit) due November 19)  *
      *****************************************************************/
 
@@ -19,43 +19,18 @@
      *                                                               *
      *   Signature:                                                  *
      *****************************************************************/
-package queues;
 
-/***
- * This interface presents a simplified specification for the
- * full Java Queue Interface
- */
+See files QueueNode.java and Queue207Implementation1.java for code.
 
-import java.lang.NullPointerException;
-import java.util.NoSuchElementException;
-
-public interface Queue207 <E>
-{
-    /**
-     * inserts the specified element e into this queue,
-     * if it is possible to do so
-     * @param e   the element to add
-     * @returns true upon success
-     * @throws NullPointerException if e is null
-     */
-    public boolean add (E e);
-
-    /**
-     * retrieves and removes the head of this queue
-     * @returns the head of this queue
-     * @throws NoSuchElementException  if this queue is empty
-     */
-    public E remove () throws NoSuchElementException;
-
-    /**
-     * retrieves, but does not remove, the head of this queue
-     * @returns the head of this queue
-     * @throws NoSuchElementException  if this queue is empty
-     */
-    public E element () throws NoSuchElementException;
-
-    /**
-     * returns the number of elements in this queue
-     */
-    public int size();
-}
+Testing:
+We know this program is correct because all test cases work as expected.
+The queue constructor throws no exceptions, and the queue add operation
+works correctly for elements of Integer and String types. The print
+method prints the entire queue, first-in-first-out. The size method
+returns the correct number of elements in the queue and accurately
+reflects changes made to the queue. The element method returns the first
+elements in the queue without altering the queue at all. The remove method
+correctly removes and returns the first elements of the queue, and as shown
+in our testing can do so for every element of the queue. Both the remove
+method and the element method throw a NoSuchElementException when called
+on an empty queue. 

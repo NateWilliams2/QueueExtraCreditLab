@@ -1,3 +1,24 @@
+/*****************************************************************
+     * Nate Williams & Milica Cvrkota                                *
+     * PO Box 4580 (nate)                                            *
+     * Program for CSC 207                                           *
+     *   QueueNode.java                                              *
+     * For Queue Implementation lab (extra credit) due November 19)  *
+     *****************************************************************/
+
+
+    /* ***************************************************************
+     * Academic honesty certification:                               *
+     *   Written/online sources used:                                *
+     *     Singly-Linked Lists lab and supporting material           *
+     *   Help obtained                                               *
+     *     none                                                      *
+     *   My signature below confirms that the above list of sources  *
+     *   is complete AND that I have not talked to anyone else       *
+     *   [e.g., CSC 161 students] about the solution to this problem *
+     *                                                               *
+     *   Signature:                                                  *
+     *****************************************************************/
 package queues;
 
 public class QueueNode <E>
