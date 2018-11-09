@@ -2,7 +2,7 @@
      * Nate Williams & Milica Cvrkota                                *
      * PO Box 4580 (nate)                                            *
      * Program for CSC 207                                           *
-     *   Queue207Implementation1.java                                              *
+     *   Queue207Implementation1.java                                *
      * For Queue Implementation lab (extra credit) due November 19)  *
      *****************************************************************/
 
